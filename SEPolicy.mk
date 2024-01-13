@@ -47,4 +47,4 @@ ifeq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
     endif
 endif
 
--include device/voltage/sepolicy/qcom/sepolicy.mk
+-include device/ethereal/sepolicy/qcom/sepolicy.mk
